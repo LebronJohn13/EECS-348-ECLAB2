@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: bisque;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .button-container {
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 60px;
+            width: 200px;
+        }
+
+        .contact-info {
+            text-align: center;
+        }
+
+        .pic-des {
+            display: flex;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>John Tran</h1>
+    <p class="contact-info">Email: j130t187@ku.edu</p>
+    <div class="image-container">
+        <img src="pic.jpg" alt="Image">
+    </div>
+    <div class="pic-des">
+        <p>Hi, I'm John Tran. I'm a computer science student at the University of Kansas. Please check out this video that is inspiring my next project. Also, please check out my music player I made using freecodecamp.</p>
+    </div>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mop6g-c5HEY?si=sfz5pihfkKLoV3ns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="button-container">
+        <a class="button" href="">Music Project</a>
+    </div>
+</div>
+
+</body>
+</html>
